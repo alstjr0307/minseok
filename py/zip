@@ -1,0 +1,8 @@
+n=int(input())
+text = input()
+words=text.split()
+if n>len(words):
+    print('wrong')
+else:
+    n_gram=zip([words[i:] for i in range(n)])
+print(n_gram)

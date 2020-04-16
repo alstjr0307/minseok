@@ -1,0 +1,9 @@
+score=map(int,input().split())
+sum=0
+for i in score:
+    sum+=i
+
+avg=sum/4
+if avg>=80:
+    print('합격')
+else: print('불합격')
