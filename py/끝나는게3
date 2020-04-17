@@ -3,4 +3,8 @@ while True:
     if i%10==3:
         print(i)
     if i==73: break
+<<<<<<< HEAD
     i+=1 
+=======
+    i+=1 d
+>>>>>>> 5518e436a5e9086c9a421b9372b757efb216353d
